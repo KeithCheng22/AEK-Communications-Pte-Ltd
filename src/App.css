@@ -222,9 +222,25 @@ footer {
   color:#213547
 }
 
-.about--section > h1, .entry-content > h2, .error{
+.about--section > h1, .tc-div > h2, .error{
   color:rgb(179, 4, 4);
   font-size: 1.5rem;
+}
+
+.tc-div {
+  margin: 0 auto;
+  max-width: 1000px;
+}
+
+.entry-content h2 {
+  margin-top: 1em
+}
+.entry-content p {
+  margin-block: 1em;
+}
+
+.pp {
+  margin-left: 3em
 }
 
 .about--explore {
@@ -278,12 +294,14 @@ footer {
 }
 
 .back {
+  display: inline-block;
   text-decoration: none;
   color: white;
   background-color: #213547;
   border-radius: 4px;
   padding: 10px 20px;
   font-weight: bold;
+  margin-top: 1em
 }
 
 .back-detail {

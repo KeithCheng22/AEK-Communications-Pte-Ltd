@@ -9,6 +9,7 @@ export default function TC() {
         <main className='tc'>
             <div class="entry-content">
             <Link to='..' className='back'> &lt; Back to Home</Link>
+            <div className='tc-div'>
                 <h2>Terms &amp; Conditions</h2>
                 <hr></hr>
                 <p><strong>Acceptance of Terms</strong></p>
@@ -30,6 +31,7 @@ export default function TC() {
                 <p>11. If any of these terms is held to be invalid or unenforceable, such term shall be struck out and the remaining terms shall be enforced. Any failure to act by AEK with respect to any breach by you or others of any of the provisions of these terms and conditions does not waive AEK’s right to act with respect to subsequent or similar breaches.</p>
                 <p><strong>Governing Laws</strong></p>
                 <p>12. These terms shall be governed by Singapore laws and any dispute arising out of the use of the Site shall be referred to the Singapore courts.</p>
+                </div>
             </div>
         </main>
     )
