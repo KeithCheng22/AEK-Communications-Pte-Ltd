@@ -31,7 +31,7 @@ export default function Header() {
             </nav>
             
             <nav id='sidebar' className='header--nav sidebar'>
-            <svg style={{padding: '10px'}} onClick={() => hideSideBar()} xmlns="http://www.w3.org/2000/svg" height="36" viewBox="0 -960 960 960" width="36"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg>
+            <svg style={{padding: '10px', cursor:'pointer'}} onClick={() => hideSideBar()} xmlns="http://www.w3.org/2000/svg" height="36" viewBox="0 -960 960 960" width="36"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg>
                 <NavLink onClick={() => hideSideBar()} end to='.' className='nav--li nav-link-ltr'>Home</NavLink>
                 <NavLink onClick={() => hideSideBar()} end to='about' className='nav--li nav-link-ltr'>About</NavLink>
                 <NavLink onClick={() => hideSideBar()} to='products' className='nav--li nav-link-ltr'>Products</NavLink>
