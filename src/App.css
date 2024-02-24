@@ -348,6 +348,7 @@ footer {
 
 .product {
   transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  padding: 1em
 }
 
 .product-filter {
@@ -388,7 +389,13 @@ footer {
 
 .product-img {
   flex-shrink: 0;
-  width: 400px;
+  max-width: 100%;
+}
+
+@media (min-width: 700px) {
+  .product-img {
+    width: 400px
+  }
 }
 
 .product-cat {
@@ -399,10 +406,17 @@ footer {
   color: white;
   padding: 10px 20px;
   border-radius: 8px;
+  max-width: fit-content;
 }
 
 .product-detail {
   margin-bottom: 10rem;
+}
+
+.product-details {
+  display: flex;
+  flex-direction: column;
+  gap: 1em
 }
 
 .interested, .compatible{
