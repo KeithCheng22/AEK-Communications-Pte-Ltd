@@ -7,10 +7,11 @@ const currentYear = date.getFullYear()
 export default function Footer() {
     return(
         <footer>
-            <small className='copyright'>&#169; {currentYear} AEK Communications Pte. Ltd. </small>
+            <span className='copyright'>&#169; {currentYear} AEK Communications Pte. Ltd. </span>
+            <br />
             <span className='footer--set'>
                 <Link to='terms&conditions' className='footer--li'>Terms & Conditions</Link>
-                <span style={{color: 'grey'}}>|</span>
+                <span className='footer--li' style={{color: 'grey'}}>|</span>
                 <Link to='privacypolicy' className='footer--li'>Privacy Policy</Link>
             </span>
         </footer>
