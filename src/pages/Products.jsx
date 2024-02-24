@@ -41,7 +41,7 @@ export default function Products() {
             <section className='change'>
                 <NavLink to='?type=cctv' className={`product-filter ${typeFilter === 'cctv' ? typeFilter : ''}`}>CCTV</NavLink>
                 <NavLink to='?type=door access' className={`product-filter ${typeFilter === 'door access' ? typeFilter : ''}`}>Door Access</NavLink>
-                <NavLink to='?type=pabx' className={`product-filter ${typeFilter === 'pabx' ? typeFilter : ''}`}>PABX</NavLink>
+                <NavLink to='?type=ip-pabx' className={`product-filter ${typeFilter === 'ip-pabx' ? typeFilter : ''}`}>IP-PABX</NavLink>
                 {typeFilter && <NavLink to='.' className='clearFilter'>Clear filter</NavLink>}
             </section>
             <main className='products'>

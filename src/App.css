@@ -491,26 +491,52 @@ footer {
 
 .contactUs .container {
   position: relative;
-  min-width: 1100px;
-  min-height: 550px;
+  padding: 1em 3em;
+  gap: 1em;
   display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   z-index: 100;
-  margin-left: 2rem;
+  width: 100%;
+  min-height: 100dvh
+
 }
 
 .contactUs .container .contactinfo {
-  position: absolute;
-  top: 40px;
-  width: 350px;
-  height: 320px;
+
+  width: 100%;
+  max-width: 1150px;
   background-color: #031D44;
-  z-index: 1;
+
   padding: 40px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   box-shadow: 0 20px 20px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
 }
+
+
+@media (min-width: 1200px) {
+  .contactUs {
+    overflow: hidden;
+  }
+  .contactUs .container {
+    flex-direction: row;
+    gap: 1em
+  }
+  .container {
+    width: 100dvh;
+  }
+  .contactUs .container .contactinfo {
+    font-size: 1.5rem;
+    z-index: 1;
+    width: max-content;
+    padding: 2em;
+}
+}
+
 
 .contactUs .container .contactinfo h2 {
   color: #fff;
@@ -531,7 +557,6 @@ footer {
   align-items: flex-start;
   color: white;
   font-weight: 500;
-
 }
 
 .contactUs .container .contactinfo .info li span:nth-child(1) {
@@ -551,13 +576,10 @@ footer {
 }
 
 section .container .contactForm {
-  position: absolute;
   padding: 70px 50px;
   background-color: #fff;
-  margin-left: 200px;
-  padding-left: 300px;
-  height: calc(100% - 200px);
   box-shadow: 0 20px 20px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
 }
 
 section .container .contactForm h2 {
@@ -639,16 +661,18 @@ section .container .contactForm .formBox .inputBox input[type='submit'] {
 
 section .container .contactForm .formBox .inputBox input[type='submit']:hover {
   background-color: #ff568c;
+  transition: 500ms;
 }
 
 .success {
   display: flex;
   justify-content: center;
-  color: palegreen; 
+  color: green; 
   font-weight: bold;
   border-radius: 10px;
   border: 2px solid palegreen;
   opacity: 0;
+  text-align: center;
 }
 
 fieldset {

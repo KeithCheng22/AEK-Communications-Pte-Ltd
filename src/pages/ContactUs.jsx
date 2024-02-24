@@ -53,23 +53,23 @@ export default function ContactUs() {
         <section className='contactUs'>
         <div className='container'>
             <div className="contactinfo">
-            <div>
-                <h2>Contact Info</h2>
-                <ul className="info">
-                    <li>
-                        <span><img src={user}/></span>
-                        <span>Alvin Cheng</span>
-                    </li>
-                    <li>
-                        <span><img src={phone}/></span>
-                        <span>(+65) 9385 6755</span>
-                    </li>
-                    <li>
-                        <span><img src={email}/></span>
-                        <span>sales@aek.com.sg</span>
-                    </li>
-                </ul>
-            </div>
+                <div>
+                    <h2>Contact Info</h2>
+                    <ul className="info">
+                        <li>
+                            <span><img src={user}/></span>
+                            <span>Alvin Cheng</span>
+                        </li>
+                        <li>
+                            <span><img src={phone}/></span>
+                            <span>(+65) 9385 6755</span>
+                        </li>
+                        <li>
+                            <span><img src={email}/></span>
+                            <span>sales@aek.com.sg</span>
+                        </li>
+                    </ul>
+                </div>
             </div>
             <div className="contactForm">
                 <h2>Send a Message</h2>
@@ -85,11 +85,11 @@ export default function ContactUs() {
                     </div>
                     <div className='inputBox w50'>
                         <input onChange={handleInput} className='form-input' type="text" name="from_email" value={contactForm.from_email} required/>
-                        <span>Email Address</span>
+                        <span>Email</span>
                     </div>
                     <div className='inputBox w50'>
                         <input onChange={handleInput} className='form-input' type="text" name="mobile" value={contactForm.mobile} required/>
-                        <span>Mobile Number</span>
+                        <span>Mobile</span>
                     </div>
                     <div className='inputBox w100'>
                         <textarea onChange={handleInput} className='form-input' name="message" required value={contactForm.message} ></textarea>

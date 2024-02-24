@@ -151,7 +151,7 @@ const data = [
     },
     {
         id: 10,
-        category: 'PABX',
+        category: 'IP-PABX',
         subCategory: 'Fanvil X300 Series',
         productName: 'Enterprise IP Phone (Colour)',
         productCode: 'X303G',
@@ -167,7 +167,7 @@ const data = [
     },
     {
         id: 11,
-        category: 'PABX',
+        category: 'IP-PABX',
         subCategory: 'Fanvil X300 Series',
         productName: 'Enterprise IP Phone (Wi-Fi)',
         productCode: 'X303W',
@@ -183,7 +183,7 @@ const data = [
     },
     {
         id: 12,
-        category: 'PABX',
+        category: 'IP-PABX',
         subCategory: 'Fanvil XU Series',
         productName: 'Enterprise IP Phone',
         productCode: 'X4U',
@@ -201,7 +201,7 @@ const data = [
     },
     {
         id: 13,
-        category: 'PABX',
+        category: 'IP-PABX',
         subCategory: 'Fanvil XU Series',
         productName: 'High-End IP Phone',
         productCode: 'X6U',
@@ -220,7 +220,7 @@ const data = [
     },
     {
         id: 14,
-        category: 'PABX',
+        category: 'IP-PABX',
         subCategory: 'Fanvil XU Series',
         productName: 'High-End IP Phone (Operator)',
         productCode: 'X210',
@@ -240,7 +240,7 @@ const data = [
     },
     {
         id: 15,
-        category: 'PABX',
+        category: 'IP-PABX',
         subCategory: 'Fanvil XU Series',
         productName: 'Android Touch Screen IP Phone',
         productCode: 'X7A',
@@ -258,7 +258,7 @@ const data = [
     },
     {
         id: 16,
-        category: 'PABX',
+        category: 'IP-PABX',
         subCategory: 'Fanvil XU Series',
         productName: 'Android IP Phone with Camera',
         productCode: 'X7A/CM60',
@@ -276,7 +276,7 @@ const data = [
     },
     {
         id: 17,
-        category: 'PABX',
+        category: 'IP-PABX',
         subCategory: 'Fanvil XU Series',
         productName: 'Portable WiFi Phone (IP67)',
         productCode: 'W611W',
@@ -295,7 +295,7 @@ const data = [
     },
     {
         id: 18,
-        category: 'PABX',
+        category: 'IP-PABX',
         subCategory: 'P-Series',
         productName: 'P-Series PBX System',
         productCode: 'P550/P560/P570',
@@ -313,7 +313,7 @@ const data = [
     },
     {
         id: 19,
-        category: 'PABX',
+        category: 'IP-PABX',
         subCategory: 'S-Series',
         productName: 'S-Series PBX System',
         productCode: 'S412/S20/S50/S100/S300',
