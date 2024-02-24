@@ -288,7 +288,7 @@ footer {
   border-radius: 4px;
   padding: 10px 20px;
   font-weight: bold;
-  margin: 1.5rem;
+  margin-left: 1.5rem;
 }
 
 /* Not Found Styles */
@@ -390,6 +390,7 @@ footer {
 .product-img {
   flex-shrink: 0;
   max-width: 100%;
+  margin-bottom: 1em
 }
 
 @media (min-width: 700px) {
@@ -410,8 +411,24 @@ footer {
 }
 
 .product-detail {
-  margin-bottom: 10rem;
+  /* margin-bottom: 10rem; */
+  padding: 2em
 }
+
+.product-section {
+  padding: 2em 0
+}
+
+.features, .desc, .contactus {
+  margin-top: 1em
+}
+
+@media (max-width: 400px) {
+  .product-detail h2 {
+    font-size: 1.5em;
+  }
+}
+
 
 .product-details {
   display: flex;

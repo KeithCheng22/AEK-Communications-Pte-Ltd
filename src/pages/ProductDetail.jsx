@@ -25,15 +25,15 @@ export default function ProductDetail() {
     
 
     return(
-        <>
-            <Link to={`/products?${prevState}`} relative='path' className='back-detail'>Back to {prevState ? status : 'all'} products</Link>
+        <div className='product-section'>
+            <Link to={`/products?${prevState}`} relative='path' className='back-detail'><span>Back to {prevState ? status : 'all'} products</span></Link>
             <section className='shrinkDetail product-detail'>
                 <img src={img} className='product-img'/>
-                <main>
+                <main className='product-container'>
                     <h2>{productName}</h2>
                     <h3>{productCode}</h3>
-                    <p><i>{description}</i></p>
-                    <b><p>Features: </p></b>
+                    <p className='desc'><i>{description}</i></p>
+                    <b><p className='features'>Features: </p></b>
                     <ul>
                         {features.map(feature => <li>{feature}</li>)}
                     </ul>
@@ -44,10 +44,10 @@ export default function ProductDetail() {
                         <li>Fanvil XU Series: <Link className='compatible' to='/products/12'>X4U</Link>, <Link className='compatible' to='/products/13'>X6U</Link>, <Link className='compatible' to='/products/14'>X210</Link>, <Link className='compatible' to='/products/15'>X7A</Link>, <Link className='compatible' to='/products/16'>X7A/CM60</Link>, <Link className='compatible' to='/products/17'>W611W</Link></li>
                     </section>
                     }
-                    <p>For more queries on product information and installation. <Link className='interested' to='/contact_us'>Contact Us</Link></p>
+                    <p className='contactus'>For more queries on product information and installation. <Link className='interested' to='/contact_us'>Contact Us</Link></p>
                 </main>
             </section>
             
-        </>
+        </div>
     )
 }
